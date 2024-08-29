@@ -23,7 +23,7 @@ def write_to_csv(data):
         writer.writerow(data)
 
 
-csvFile = open("data.txt", "r")
+csvFile = open("data.csv", "r")
 reader = csv.DictReader(csvFile)
 dataset2 = list(reader)
 
