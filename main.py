@@ -123,8 +123,10 @@ def showNewPage():
 
     # Define the columns, including 'DebitCredit'
     columns = ("Product", "Code", "Price", "DebitCredit")
-
+   22
     # Create the Treeview
+
+
     tree = ttk.Treeview(nextpageframe, columns=columns, show="headings")
 
     # Define the column headers
